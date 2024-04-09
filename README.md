@@ -26,7 +26,9 @@ Seja para uma pausa no meio do dia ou para desfrutar de um momento tranquilo, a 
 | Suco de Laranja   | R$ 12,50| Em estoque      |
 | Mocha             | R$ 20,00| Em estoque      |
 | Café              | R$ 3,50 | Em estoque      |
-| Bolo de Chocolate| R$ 5,00 | Em estoque      |
+| Bolo de Chocolate | R$ 5,00 | Em estoque      |
+| Coca-Cola         | R$ 4,50 | Sem estoque     |
+
 
 ## Localização 🗺️
 
