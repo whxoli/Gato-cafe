@@ -1,153 +1,192 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-image: url('fundo.png');       
-}
+    /* Define estilos padrão para todas as tags */
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-header{
-    overflow: hidden;
-}
+    /* Define o fundo da página */
+    body{
+        background-image: url('fundo.png');       
+    }
 
-nav{
-    padding: 30px 0;
-}
+    /* Estilos para o cabeçalho */
+    header{
+        overflow: hidden;
+    }
 
-nav a{
-    float: left;
-    text-align: center;
-    padding: 7px 45px;
-    border: 1px solid #A49180;
-    border-radius: 50px;
-    margin-left: 30px;
-    text-decoration: none;
-    color: #593B1D;
-    font-size: 20px;
-}
+    /* Estilos para a barra de navegação */
+    nav{
+        padding: 30px 0;
+    }
 
-nav img{
-    width: 70px;
-}
+    /* Estilos para os links na barra de navegação */
+    nav a{
+        float: left;
+        text-align: center;
+        padding: 7px 45px;
+        border: 1px solid #A49180;
+        border-radius: 50px;
+        margin-left: 30px;
+        text-decoration: none;
+        color: #593B1D;
+        font-size: 20px;
+    }
 
-.iconeGato{
-    border: none;
-    margin-top: -32px;
-    margin-left: 378px;
-}
-.iconeCarrinho{
-    border: none;
-    margin-top: -26px;
-}
-.card {
-    width: 300px;
-    height: 264px;
-    background-color: #a4918029;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 3px solid #76676d;
-    border-radius: 20px;
-    margin: 50px 90px
-}
-.card img
-{
-    height: 200px;
-}
+    /* Estilos para as imagens dentro da barra de navegação */
+    nav img{
+        width: 70px;
+    }
 
-button{
-    border: none;
-    margin-left: 223px;
-    position: absolute;
-    margin-top: 12px;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    background: #a49180;
-    font-size: 32px;
-    font-family: revert-layer;
-    color: #362f27;
-}
-main{
-    padding: 90px 190px;
-    display: flex;
-    flex-wrap: wrap;
-}
-sub{
-    font-size: xx-small;
-}
-sup{
-    font-size: medium;
-}
-.video{
-    margin: auto;
-    display: block;
-    height: 400px;
-    width: 700px;
-    
-}
-       
-.textsecao{
-    font-size: 100px;
-    margin-left: 265px;
-    color: #625353;
+    /* Estilos para o ícone do gato */
+    .iconeGato{
+        border: none;
+        margin-top: -32px;
+        margin-left: 378px;
+    }
 
-}
-.sobrenos{
-    width: 100%;
-    display: flex;
-}
-.texto{
-    width: 30%;
-    background-color: #53271854;
+    /* Estilos para o ícone do carrinho */
+    .iconeCarrinho{
+        border: none;
+        margin-top: -26px;
+    }
+
+    /* Estilos para os cartões de produtos */
+    .card {
+        width: 300px;
+        height: 264px;
+        background-color: #a4918029;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid #76676d;
+        border-radius: 20px;
+        margin: 50px 90px
+    }
+
+    /* Estilos para as imagens dentro dos cartões de produtos */
+    .card img
+    {
+        height: 200px;
+    }
+
+    /* Estilos para os botões de adicionar */
+    button{
+        border: none;
+        margin-left: 223px;
+        position: absolute;
+        margin-top: 12px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background: #a49180;
+        font-size: 32px;
+        font-family: revert-layer;
+        color: #362f27;
+    }
+
+    /* Estilos para a seção principal */
+    main{
+        padding: 90px 190px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Estilos para subscrito */
+    sub{
+        font-size: xx-small;
+    }
+
+    /* Estilos para sobrescrito */
+    sup{
+        font-size: medium;
+    }
+
+    /* Estilos para vídeos */
+    .video{
+        margin: auto;
+        display: block;
+        height: 400px;
+        width: 700px;
+    }
+
+    /* Estilos para os títulos das seções */
+    .textsecao{
+        font-size: 100px;
+        margin-left: 265px;
+        color: #625353;
+    }
+
+    /* Estilos para a seção "Sobre Nós" */
+    .sobrenos{
+        width: 100%;
+        display: flex;
+    }
+
+    /* Estilos para o texto na seção "Sobre Nós" */
+    .texto{
+        width: 30%;
+        background-color: #53271854;
+        color: white;
+        font-size: 25px;
+        margin: 0 10%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    /* Estilos para o mapa na seção "Sobre Nós" */
+    .mapa{
+        width: 50%;
+    }
+
+    /* Estilos para o mapa incorporado */
+    .local{
+        width: 600px;
+        height: 450px;
+        border: none;
+        margin-left: 200px;
+    }
+
+    /* Estilos para tabelas personalizadas */
+    .custom-table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 2% 10%;
+    }
+
+    /* Estilos para células de tabela */
+    .custom-table th,
+    .custom-table td {
+    padding: 10px;
+    border: 1px solid #532718;
+    }
+
+    /* Estilos para cabeçalho de tabela */
+    .custom-table th {
+    background-color: #532718;
     color: white;
-    font-size: 25px;
-    margin: 0 10%;
-    border-radius: 20px;
-    padding: 20px;
+    }
 
-}
-.mapa{
-    width: 50%;
-}
-.local{
-    width: 600px;
-    height: 450px;
-    border: none;
-    margin-left: 200px;
+    /* Estilos para linhas pares de tabela */
+    .custom-table tbody tr:nth-child(even) {
+    background-color: #ad856f;
+    }
 
-}
-.custom-table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 2% 10%;
-}
+    /* Estilos para o título da seção de cardápio */
+    .titable {
+        text-align: center;
+        color: #362f27;
+        font-size: 50px;
+    }
 
-.custom-table th,
-.custom-table td {
-padding: 10px;
-border: 1px solid #532718;
-}
+    /* Estilos para o rodapé */
+    footer{
+        background-color: #a7928b;
+        color: white;
+    }
 
-.custom-table th {
-background-color: #532718;
-color: white;
-}
-
-.custom-table tbody tr:nth-child(even) {
-background-color: #ad856f;
-}
-.titable {
-    text-align: center;
-    color: #362f27;
-    font-size: 50px;
-}
-footer{
-    background-color: #a7928b;
-    color: white;
-}
-.gatos{
-    text-align: center;
-    margin-left: 0;
-    margin-top: 50px;
-}
+    /* Estilos para a seção de gatos */
+    .gatos{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 50px;
+    }
