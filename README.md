@@ -47,4 +47,4 @@ Para mais informações, visite nossa página [CatCoffee](https://github.com/whx
 
 Todos os direitos reservados®
 
-COM ❤️, OLIVIA
+COM ❤️, OLIVIA.
